@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="function.js"></script>
+    <title>Tarot Cards</title>
+</head>
+<body>
+    <div>
+        <img src="https://images-na.ssl-images-amazon.com/images/I/91gMO7WugAL._AC_SX425_.jpg" alt='tarot card 1' id="first" style='margin-left: 20%;' onclick='tarotDeck()'>
+        <img src="https://images-na.ssl-images-amazon.com/images/I/81RyMT7I2hL.jpg" alt='tarot card 1' id="second" style='margin-left: 5%;' onclick='tarotDeck()'>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuMs6FV0WEj120hNHa2XhI3so0algaKGFapw&usqp=CAU" alt='tarot card 1' id="third" style='margin-left: 5%;' onclick='tarotDeck()'> 
+    </div>
+    <br>
+    <div class="stack">
+            <img class='tarotDeck' src='' onclick="tarotCard()">
+            <img class='tarotDeck' src='' onclick="tarotCard()" style='margin-top: -20%; margin-left: 0.5%;'>
+            <img class='tarotDeck' src='' onclick="tarotCard()" style='margin-top: -20%; margin-left: 1%;'>
+            <img id='cards' src=' ' class="tarotDeck" onclick="tarotCard()" style='margin-top: -20%; margin-left: 1.5%;'>
+    </div>
+    <div>
+        <img class="Tarotcard thirteen" src='' onclick="theDeath()">
+        <img class="Tarotcard twelve" src='' onclick="theJudgment()">
+        <img class="Tarotcard eleven" src='' onclick="theHangedMan()">
+        <img class="Tarotcard ten" src='' onclick="theKing()">
+        <img class="Tarotcard nine" src='' onclick="theQueen()">
+        <img class="Tarotcard eight" src='' onclick="theStart()">
+        <img class="Tarotcard seven" src='' onclick="theStrenth()">
+        <img class="Tarotcard six" src='' onclick="theDevil()">
+        <img class="Tarotcard five" src='' onclick="theLovers()">
+        <img class="Tarotcard four" src='' onclick="theEmpress()">
+        <img class="Tarotcard three" src='' onclick="theMagician()">
+        <img class="Tarotcard two" src='' onclick="theSun()" >
+        <img class="Tarotcard one" src='' onclick="theMoon()">
+    </div>
+    <div>
+        <div class='Image'><img src='' id="cardImage" style='width: 20%;'></div>    
+        <h1 id='Heading'></h1>
+        <div class='scroller'>
+            <h3 id='Title1'></h3>
+            <p id="Details1"></p>
+            <h3 id='Title2'></h3>
+            <p id="Details2"></p>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
